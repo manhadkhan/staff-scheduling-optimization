@@ -5,6 +5,123 @@
   },
   "cells": [
     {
+      "id": "MJUe",
+      "code_hash": "db063acf3819111d64d40cb72b3e4ff3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"prepare-your-parameters\">Prepare your parameters</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "f8f0c44e6b6a4e2ae597a75374274e85",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"initialise-the-model-define-the-objective-and-add-constraints\">Initialise the model, define the objective and add constraints</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "ef7fa306fa96255b67b8d7a28e6fb5be",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"solve-your-model-and-analyse-the-results\">Solve your model and analyse the results</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "6d7e5c3f9e7e7a9403937186e9c52cad",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"heatmap-visualization-patterns\">Heatmap Visualization (Patterns)</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "f7802714a10b83c1235ca4eb57b46457",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Shift: Monday</strong> starts 14 workers, covering Monday to Friday.</li>\n<li><strong>Shift: Tuesday</strong> starts 14 workers, covering Tuesday to Saturday.</li>\n<li><strong>Shift: Wednesday</strong> starts 8 workers, covering Wednesday to Sunday.</li>\n<li><strong>Shift: Thursday</strong> has no workers starting.</li>\n<li><strong>Shift: Friday</strong> starts 13 workers, covering Friday to Sunday.</li>\n<li><strong>Shift: Saturday</strong> has no workers starting.</li>\n<li><strong>Shift: Sunday</strong> starts 4 workers, covering Monday to Thursday and Sunday.</li>\n<li><strong>Highest staffing</strong> occurs on Monday, Tuesday, and Friday (14 workers each).</li>\n<li><strong>Lowest staffing</strong> on Saturday and Sunday, except for Sunday shifts starting on Wednesday and Sunday.</li>\n<li><strong>Wednesday and Friday</strong> shifts cover the weekend (Saturday and Sunday).</li>\n<li><strong>No overlap</strong> from Thursday starting shifts.</li>\n<li><strong>Sunday starting shifts</strong> only cover Monday to Thursday and Sunday.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "5d5a9614d6febdaba7428f241c04e2ed",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"daily-breakdown\">Daily Breakdown</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "02dd71824bbf606d251f430c7c441658",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Monday staffing</strong> is primarily covered by workers starting on Monday and Sunday, with smaller contributions from Friday.</li>\n<li><strong>Tuesday staffing</strong> is highest, with major contributions from Monday, Tuesday, and Friday starting shifts.</li>\n<li><strong>Wednesday staffing</strong> is evenly distributed among Monday, Tuesday, Wednesday, and Sunday starting shifts.</li>\n<li><strong>Thursday staffing</strong> is mainly covered by Monday, Tuesday, and Wednesday starting shifts.</li>\n<li><strong>Friday staffing</strong> peaks, with large contributions from Monday, Tuesday, Wednesday, and Friday starting shifts.</li>\n<li><strong>Saturday staffing</strong> is mostly covered by Tuesday and Friday starting shifts, with no contribution from Monday or Thursday.</li>\n<li><strong>Sunday staffing</strong> is mainly covered by Wednesday and Friday starting shifts, with a notable contribution from Sunday.</li>\n<li><strong>Shift: Monday</strong> workers consistently cover Monday to Friday.</li>\n<li><strong>Shift: Tuesday</strong> workers cover Tuesday to Saturday, with the highest impact on Tuesday and Friday.</li>\n<li><strong>Shift: Wednesday</strong> workers cover Wednesday to Sunday, with a significant presence on Wednesday, Thursday, and Friday.</li>\n<li><strong>Shift: Friday</strong> workers significantly contribute to Friday, Saturday, and Sunday staffing.</li>\n<li><strong>Shift: Sunday</strong> workers only appear on Monday and Sunday.</li>\n<li><strong>Shift: Thursday</strong> workers do not appear to contribute to any day in this chart.</li>\n<li><strong>Shift: Saturday</strong> workers do not appear to contribute to any day in this chart.</li>\n<li><strong>Friday</strong> has the highest total staffing level across the week.</li>\n<li><strong>Sunday</strong> has the lowest total staffing level, with only Wednesday and Friday starting shifts contributing.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "3e30a44a458e80481da2f7ddae067493",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"total-workers-per-day\">Total Workers per Day</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "7b16d62b8b585b846405c5d6b604f714",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Monday</strong> has the lowest staffing level, with around 30 workers.</li>\n<li><strong>Tuesday</strong> sees a significant increase in staffing, reaching approximately 45 workers.</li>\n<li><strong>Wednesday and Thursday</strong> maintain a consistent staffing level of around 40 workers each.</li>\n<li><strong>Friday</strong> has the highest staffing level, peaking at about 50 workers.</li>\n<li><strong>Saturday</strong> experiences a drop in staffing, with around 35 workers.</li>\n<li><strong>Sunday</strong> has the second-lowest staffing level, with just over 25 workers.</li>\n<li>Staffing levels increase from Monday to Friday, indicating higher demand or workload towards the end of the workweek.</li>\n<li>There is a noticeable decline in staffing levels during the weekend, with Sunday having the least number of workers.</li>\n<li>The staffing pattern suggests a focus on weekdays, especially Friday, likely due to higher business or operational needs.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
       "id": "Hbol",
       "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
       "outputs": [
@@ -18,20 +135,7 @@
       "console": []
     },
     {
-      "id": "cwVk",
-      "code_hash": "db063acf3819111d64d40cb72b3e4ff3",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"prepare-your-parameters\">Prepare your parameters</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "MJUe",
+      "id": "vblA",
       "code_hash": "a76a316bbf9ea7a16ece253407d59176",
       "outputs": [
         {
@@ -44,20 +148,7 @@
       "console": []
     },
     {
-      "id": "vblA",
-      "code_hash": "f8f0c44e6b6a4e2ae597a75374274e85",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"initialise-the-model-define-the-objective-and-add-constraints\">Initialise the model, define the objective and add constraints</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "uUXg",
+      "id": "lEQa",
       "code_hash": "6279f07b74611f89ac2cd42227bd6b9d",
       "outputs": [
         {
@@ -77,20 +168,7 @@
       ]
     },
     {
-      "id": "Flud",
-      "code_hash": "ef7fa306fa96255b67b8d7a28e6fb5be",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"solve-your-model-and-analyse-the-results\">Solve your model and analyse the results</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "cWYb",
+      "id": "Xref",
       "code_hash": "0ab6d932c5509dc1d1b6b2e6fd34c0b0",
       "outputs": [
         {
@@ -104,13 +182,13 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "Welcome to the CBC MILP Solver \r\nVersion: 2.10.3 \r\nBuild Date: Dec 15 2019 \r\n\r\ncommand line - C:\\Projects\\workforce_planning_optimzation\\.venv\\Lib\\site-packages\\pulp\\apis\\../solverdir/cbc/win/i64/cbc.exe C:\\Users\\manha\\AppData\\Local\\Temp\\5756f01c025244d89c1407c909a95611-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\\Users\\manha\\AppData\\Local\\Temp\\5756f01c025244d89c1407c909a95611-pulp.sol (default strategy 1)\r\nAt line 2 NAME          MODEL\r\nAt line 3 ROWS\r\nAt line 12 COLUMNS\r\nAt line 69 RHS\r\nAt line 77 BOUNDS\r\nAt line 85 ENDATA\r\nProblem MODEL has 7 rows, 7 columns and 35 elements\r\nCoin0008I MODEL read with 0 errors\r\nOption for timeMode changed from cpu to elapsed\r\nContinuous objective value is 52.6667 - 0.00 seconds\r\nCgl0003I 0 fixed, 7 tightened bounds, 0 strengthened rows, 0 substitutions\r\nCgl0004I processed model has 7 rows, 7 columns (7 integer (0 of which binary)) and 35 elements\r\nCutoff increment increased from 1e-05 to 0.9999\r\nCbc0012I Integer solution of 54 found by greedy cover after 0 iterations and 0 nodes (0.00 seconds)\r\nCbc0038I Full problem 7 rows 7 columns, reduced to 5 rows 4 columns\r\nCbc0012I Integer solution of 53 found by DiveCoefficient after 1 iterations and 0 nodes (0.00 seconds)\r\nCbc0031I 1 added rows had average density of 7\r\nCbc0013I At root node, 1 cuts changed objective from 52.666667 to 53 in 2 passes\r\nCbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.000 seconds - new frequency is 1\r\nCbc0014I Cut generator 1 (Gomory) - 1 row cuts average 7.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1\r\nCbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0001I Search completed - best objective 53, took 1 iterations and 0 nodes (0.00 seconds)\r\nCbc0035I Maximum depth 0, 0 variables fixed on reduced cost\r\nCuts at root node changed objective from 52.6667 to 53\r\nProbing was tried 2 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nGomory was tried 2 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nKnapsack was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nClique was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nMixedIntegerRounding2 was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nFlowCover was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nTwoMirCuts was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\n\r\nResult - Optimal solution found\r\n\r\nObjective value:                53.00000000\r\nEnumerated nodes:               0\r\nTotal iterations:               1\r\nTime (CPU seconds):             0.00\r\nTime (Wallclock seconds):       0.00\r\n\r\nOption for printingOptions changed from normal to all\r\nTotal time (CPU seconds):       0.01   (Wallclock seconds):       0.01\r\n\r\nStatus: Optimal\nTotal number of Staff =  53.0\n",
+          "text": "Welcome to the CBC MILP Solver \r\nVersion: 2.10.3 \r\nBuild Date: Dec 15 2019 \r\n\r\ncommand line - C:\\Projects\\workforce_planning_optimzation\\.venv\\Lib\\site-packages\\pulp\\apis\\../solverdir/cbc/win/i64/cbc.exe C:\\Users\\manha\\AppData\\Local\\Temp\\25fe9ffe0fb540cdaee4730bd9411397-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\\Users\\manha\\AppData\\Local\\Temp\\25fe9ffe0fb540cdaee4730bd9411397-pulp.sol (default strategy 1)\r\nAt line 2 NAME          MODEL\r\nAt line 3 ROWS\r\nAt line 12 COLUMNS\r\nAt line 69 RHS\r\nAt line 77 BOUNDS\r\nAt line 85 ENDATA\r\nProblem MODEL has 7 rows, 7 columns and 35 elements\r\nCoin0008I MODEL read with 0 errors\r\nOption for timeMode changed from cpu to elapsed\r\nContinuous objective value is 52.6667 - 0.01 seconds\r\nCgl0003I 0 fixed, 7 tightened bounds, 0 strengthened rows, 0 substitutions\r\nCgl0004I processed model has 7 rows, 7 columns (7 integer (0 of which binary)) and 35 elements\r\nCutoff increment increased from 1e-05 to 0.9999\r\nCbc0012I Integer solution of 54 found by greedy cover after 0 iterations and 0 nodes (0.02 seconds)\r\nCbc0038I Full problem 7 rows 7 columns, reduced to 5 rows 4 columns\r\nCbc0012I Integer solution of 53 found by DiveCoefficient after 1 iterations and 0 nodes (0.02 seconds)\r\nCbc0031I 1 added rows had average density of 7\r\nCbc0013I At root node, 1 cuts changed objective from 52.666667 to 53 in 2 passes\r\nCbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.000 seconds - new frequency is 1\r\nCbc0014I Cut generator 1 (Gomory) - 1 row cuts average 7.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1\r\nCbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100\r\nCbc0001I Search completed - best objective 53, took 1 iterations and 0 nodes (0.02 seconds)\r\nCbc0035I Maximum depth 0, 0 variables fixed on reduced cost\r\nCuts at root node changed objective from 52.6667 to 53\r\nProbing was tried 2 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nGomory was tried 2 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)\r\nKnapsack was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nClique was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nMixedIntegerRounding2 was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nFlowCover was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nTwoMirCuts was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)\r\nZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)\r\n\r\nResult - Optimal solution found\r\n\r\nObjective value:                53.00000000\r\nEnumerated nodes:               0\r\nTotal iterations:               1\r\nTime (CPU seconds):             0.02\r\nTime (Wallclock seconds):       0.02\r\n\r\nOption for printingOptions changed from normal to all\r\nTotal time (CPU seconds):       0.04   (Wallclock seconds):       0.04\r\n\r\nStatus: Optimal\nTotal number of Staff =  53.0\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "TnRm",
+      "id": "SFPL",
       "code_hash": "ba8ee7f454b038d3846402648db9ff35",
       "outputs": [
         {
@@ -130,20 +208,7 @@
       ]
     },
     {
-      "id": "pDRl",
-      "code_hash": "6d7e5c3f9e7e7a9403937186e9c52cad",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"heatmap-visualization-patterns\">Heatmap Visualization (Patterns)</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "bYLR",
+      "id": "RGSE",
       "code_hash": "88c26664a36143a1da683c1c1c98a48a",
       "outputs": [
         {
@@ -163,34 +228,8 @@
       ]
     },
     {
-      "id": "RZjV",
-      "code_hash": "f7802714a10b83c1235ca4eb57b46457",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Shift: Monday</strong> starts 14 workers, covering Monday to Friday.</li>\n<li><strong>Shift: Tuesday</strong> starts 14 workers, covering Tuesday to Saturday.</li>\n<li><strong>Shift: Wednesday</strong> starts 8 workers, covering Wednesday to Sunday.</li>\n<li><strong>Shift: Thursday</strong> has no workers starting.</li>\n<li><strong>Shift: Friday</strong> starts 13 workers, covering Friday to Sunday.</li>\n<li><strong>Shift: Saturday</strong> has no workers starting.</li>\n<li><strong>Shift: Sunday</strong> starts 4 workers, covering Monday to Thursday and Sunday.</li>\n<li><strong>Highest staffing</strong> occurs on Monday, Tuesday, and Friday (14 workers each).</li>\n<li><strong>Lowest staffing</strong> on Saturday and Sunday, except for Sunday shifts starting on Wednesday and Sunday.</li>\n<li><strong>Wednesday and Friday</strong> shifts cover the weekend (Saturday and Sunday).</li>\n<li><strong>No overlap</strong> from Thursday starting shifts.</li>\n<li><strong>Sunday starting shifts</strong> only cover Monday to Thursday and Sunday.</li>\n</ul></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "AIxr",
-      "code_hash": "5d5a9614d6febdaba7428f241c04e2ed",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"daily-breakdown\">Daily Breakdown</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "VEiH",
-      "code_hash": "20014058ccb862d3da05224d53da3a07",
+      "id": "Hstk",
+      "code_hash": "b81a3a36ea20571c7f471025535105c7",
       "outputs": [
         {
           "type": "data",
@@ -209,33 +248,7 @@
       ]
     },
     {
-      "id": "nIhD",
-      "code_hash": "02dd71824bbf606d251f430c7c441658",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Monday staffing</strong> is primarily covered by workers starting on Monday and Sunday, with smaller contributions from Friday.</li>\n<li><strong>Tuesday staffing</strong> is highest, with major contributions from Monday, Tuesday, and Friday starting shifts.</li>\n<li><strong>Wednesday staffing</strong> is evenly distributed among Monday, Tuesday, Wednesday, and Sunday starting shifts.</li>\n<li><strong>Thursday staffing</strong> is mainly covered by Monday, Tuesday, and Wednesday starting shifts.</li>\n<li><strong>Friday staffing</strong> peaks, with large contributions from Monday, Tuesday, Wednesday, and Friday starting shifts.</li>\n<li><strong>Saturday staffing</strong> is mostly covered by Tuesday and Friday starting shifts, with no contribution from Monday or Thursday.</li>\n<li><strong>Sunday staffing</strong> is mainly covered by Wednesday and Friday starting shifts, with a notable contribution from Sunday.</li>\n<li><strong>Shift: Monday</strong> workers consistently cover Monday to Friday.</li>\n<li><strong>Shift: Tuesday</strong> workers cover Tuesday to Saturday, with the highest impact on Tuesday and Friday.</li>\n<li><strong>Shift: Wednesday</strong> workers cover Wednesday to Sunday, with a significant presence on Wednesday, Thursday, and Friday.</li>\n<li><strong>Shift: Friday</strong> workers significantly contribute to Friday, Saturday, and Sunday staffing.</li>\n<li><strong>Shift: Sunday</strong> workers only appear on Monday and Sunday.</li>\n<li><strong>Shift: Thursday</strong> workers do not appear to contribute to any day in this chart.</li>\n<li><strong>Shift: Saturday</strong> workers do not appear to contribute to any day in this chart.</li>\n<li><strong>Friday</strong> has the highest total staffing level across the week.</li>\n<li><strong>Sunday</strong> has the lowest total staffing level, with only Wednesday and Friday starting shifts contributing.</li>\n</ul></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "sStp",
-      "code_hash": "3e30a44a458e80481da2f7ddae067493",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"total-workers-per-day\">Total Workers per Day</h3></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "rEQX",
+      "id": "ZHCJ",
       "code_hash": "ed1efa957db5b79fafb82787ca1c9d67",
       "outputs": [
         {
@@ -255,22 +268,16 @@
       ]
     },
     {
-      "id": "uact",
-      "code_hash": "7b16d62b8b585b846405c5d6b604f714",
+      "id": "qnkX",
+      "code_hash": null,
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li><strong>Monday</strong> has the lowest staffing level, with around 30 workers.</li>\n<li><strong>Tuesday</strong> sees a significant increase in staffing, reaching approximately 45 workers.</li>\n<li><strong>Wednesday and Thursday</strong> maintain a consistent staffing level of around 40 workers each.</li>\n<li><strong>Friday</strong> has the highest staffing level, peaking at about 50 workers.</li>\n<li><strong>Saturday</strong> experiences a drop in staffing, with around 35 workers.</li>\n<li><strong>Sunday</strong> has the second-lowest staffing level, with just over 25 workers.</li>\n<li>Staffing levels increase from Monday to Friday, indicating higher demand or workload towards the end of the workweek.</li>\n<li>There is a noticeable decline in staffing levels during the weekend, with Sunday having the least number of workers.</li>\n<li>The staffing pattern suggests a focus on weekdays, especially Friday, likely due to higher business or operational needs.</li>\n</ul></span>"
+            "text/plain": ""
           }
         }
       ],
-      "console": []
-    },
-    {
-      "id": "wXjH",
-      "code_hash": null,
-      "outputs": [],
       "console": []
     }
   ]
