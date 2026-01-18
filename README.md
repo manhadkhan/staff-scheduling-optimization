@@ -16,7 +16,8 @@ Minimize total staff while meeting daily requirements using linear programming.
 - **Optimal Staff:** 53 workers (minimum required).
 - **Visualizations:**
 
-<<<<<<< HEAD
+----
+
   ![Heatmap (Shift Coverage)](results/heatmap.png)
   *Heatmap showing shift coverage.*
 
@@ -24,16 +25,6 @@ Minimize total staff while meeting daily requirements using linear programming.
   *Bar chart of daily staffing requirements.*
 
   ![Stacked Bar (Shift Contributions)](results/total_workers_per_day.png)
-=======
-  ![Heatmap (Shift Coverage)](/results/heatmap.png)
-  *Heatmap showing shift coverage.*
-
-  ![Bar Chart (Daily Staffing)](/results/Daily Breakdown.png)
-  *Bar chart of daily staffing requirements.*
-
-  ![Stacked Bar (Shift Contributions)](/results/Total Workers per Day.png)
->>>>>>> 8ca119f5d0ca42da5b0b31ccc6673f393111b23f
-  *Stacked bar chart of shift contributions.*
 
 ---
 
